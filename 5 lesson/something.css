@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border:2px solid red;
+    padding: 10px;
+}
+.header input{
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+}
+.header button{
+    width:20%;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.todoBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions button{
+    width: 150px;
+    height: 35px;
+    border:2px solid darkred;
+    text-align: center;
+}
+.todoBlock{
+    color:purple;
+    font-size:18px ;
+}
+
+.change{
+    background: red;
+    color: black;
+}
+.delete{
+    background: aqua;
+    color:orange;
+}

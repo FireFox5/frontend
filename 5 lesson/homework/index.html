@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Светофор</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<div align="center" id="closedred">
+
+</div>
+<div align="center" id="closedyellow">
+
+</div>
+<div align="center" id="closedgreen">
+
+</div>
+<input type=button value="Запуск" onclick="ready()">
+<table border=1 align=center><tr><td><div class=text3><form>
+    <span></span><input type=button value="Красный" onClick="changeDiv('closedred')">
+    <input type=button value="Желтый" onClick="document.getElementById('closedyellow').style.backgroundColor = 'yellow'">
+    <input type=button value="Зеленый" onClick="document.getElementById('closedgreen').style.backgroundColor = 'green'">
+</form></div></td></table>
+
+
+</body>
+</html>
