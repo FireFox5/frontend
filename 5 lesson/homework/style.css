@@ -1,84 +1,66 @@
+.trafficlight {
+ background:#333;
+ width: 150px;
+ height: 440px;
+ border-radius: 10px;
+ font-size: 70px;
+ text-align:center;
+ padding: 1px 0;
+ border: 6px solid #000;
+ margin: auto;
+}
 #red {
-     align-content: center;
-     width: 100px;
-     height: 100px;
-     background: #FF0000;
-     -moz-border-radius: 50px;
-     -webkit-border-radius: 50px;
-     border-radius: 50px;
-     border: solid;
- }
-#green {
-    align-content: center;
-    width: 100px;
-    height: 100px;
-    background:  #00FF00;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    border: solid;
+    background-color: rgb(255, 0, 0);
+ background:#666;
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ margin-left: 15px;
+ margin-top: 20px;
+ line-height: 120px;
+ -webkit-transition: background-color 0.5s ease-out;
+ -o-transition: background-color 0.5s ease-out;
+ transition: background-color 0.5s ease-out;
 }
+
 #yellow {
-    align-content: center;
-    width: 100px;
-    height: 100px;
-    background:  #FFFF00;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    border: solid;
+    background:#666;
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ margin-left: 15px;
+ margin-top: 20px;
+ line-height: 120px;
+ -webkit-transition: background-color 0.5s ease-out;
+ -o-transition: background-color 0.5s ease-out;
+ transition: background-color 0.5s ease-out;
 }
-#closedred {
-    align-content: center;
-   width: 100px;
-    height: 100px;
-    background: #FFE4E1;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    border: solid;
-}
-#closedgreen {
-    align-content: center;
-    width: 100px;
-    height: 100px;
-    background:  #F0FFF0;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    border: solid;
-}
-#closedyellow {
-    align-content: center;
-    width: 100px;
-    height: 100px;
-    background:  #FFFFE0;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    border: solid;
+#green {
+    background:#666;
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ margin-left: 15px;
+ margin-top: 20px;
+ line-height: 120px;
+ -webkit-transition: background-color 0.5s ease-out;
+ -o-transition: background-color 0.5s ease-out;
+ transition: background-color 0.5s ease-out;
 }
 
-/*}*/
-/*.container{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-/*.block1{*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    border: 3px solid black;*/
-/*    border-radius: 30px;*/
+.red {
+ background-color: rgb(255, 0, 0);
+}
+.yellow {
+ background-color: #ff0;
+}
+.green {
+ background-color: #0f0;
+}
 
-/*}.block2{*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    border: 3px solid black;*/
-/*    border-radius: 30px;*/
-/*}.block3{*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    border: 3px solid black;*/
-/*    border-radius: 30px;*/
-/*}*/
+button {
+ margin-top: 50px;
+ padding: 20px 100px;
+ font-size: 48px;
+ margin-left: 39%;
+}

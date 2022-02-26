@@ -7,3 +7,30 @@
 //
 // const all=[...first,second,third,forth,fifth]
 // console.log(all)
+
+// const one = [{
+//     name:'Fire',
+//     surname:'Fox',
+//     age:2903
+
+// }
+// ]
+// const new_one = [{
+//     ...one,
+//     address:'street ASU',
+//     school:'Somewhere in the sky'
+// }]
+// console.log(new_one)
+// const name = prompt('enter your name')
+// const name1 = [name]
+// const greeting = ['hello ',...name1]
+// console.log(greeting)
+const btn = document.getElementById("btn");
+const input = document.getElementById("input");
+const pTag = document.getElementById("show-text");
+btn.onclick = () => {
+  console.log("asdasd");
+  input.addEventListener("change", (e) => {
+    pTag.innerHTML = `Hello ${e.target.value}`;
+  });
+};

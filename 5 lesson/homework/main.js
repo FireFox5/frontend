@@ -1,15 +1,25 @@
-  function changeDiv (id){
-        if (id  == document.getElementById('closedred')){
-            document.getElementById('closered').style.background = 'red';
-            document.getElementById('closedyellow').style.backgroundColor = 'closedyellow';
-            document.getElementById('closedgreen').style.backgroundColor = 'closedgreen';
-        }
-        if (id == document.getElementById('closedyellow')){
-            document.getElementById('closedred').style.backgroundColor = 'closedred';
-            document.getElementById('closedyellow').style.backgroundColor = 'yellow';
-            document.getElementById('closedgreen').style.backgroundColor = 'closedgreen';
-        }
-        if (id == document.getElementById('closedgreen')){
-            document.getElementById('closered').style.backgroundColor = 'closedred';
-            document.getElementById('closedyellow').style.backgroundColor = 'closedyellow';
-            document.getElementById('closedgreen').style.backgroundColor = 'green';}}
+const button = document.getElementById('get')
+const color = prompt("Choose the type of color: Green, Red or Yellow?")
+
+const element1 = document.getElementById("red");
+const element2 = document.getElementById("yellow");
+const element3 = document.getElementById("green");
+
+
+if (color === "Red") {
+    element1.style.background = "red";
+    alert("Stop if you don't want the car hit!!")
+}
+else if (color === "Yellow") {
+    element2.style.background = "yellow";
+    alert("Get ready to cross the road!")
+}
+else if (color === "Green") {
+    element3.style.background = "green"
+    alert("Go where you want!")
+}
+else alert("Undefined a color!");
+
+button.onclick = () => {
+    const color = prompt("Choose the type of color: Green, Red or Yellow?")
+}
