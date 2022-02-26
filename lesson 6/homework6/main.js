@@ -25,11 +25,10 @@
 // const name1 = [name]
 // const greeting = ['hello ',...name1]
 // console.log(greeting)
-const btn = document.getElementById("btn");
-const input = document.getElementById("input");
-const pTag = document.getElementById("show-text");
+const btn = document.getElementById("button");
+const input = document.getElementById("name");
+const pTag = document.getElementById("results");
 btn.onclick = () => {
-  console.log("asdasd");
   input.addEventListener("change", (e) => {
     pTag.innerHTML = `Hello ${e.target.value}`;
   });

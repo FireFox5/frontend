@@ -1,5 +1,5 @@
 * {
-  background-color: white;
+  background-color: forestgreen;
 }
 
 #wrap {
@@ -9,11 +9,11 @@
 }
 
 input {
-  background-color: white;
+  background-color: red;
   width: 300px;
   height: 30px;
 }
 p {
-  color: black;
+  color: yellow;
   font-size: 22px;
 }
